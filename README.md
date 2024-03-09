@@ -327,7 +327,7 @@
 		where (here specific field name) 
 		in (here write matching number or word present in field records , .. , .. ) ;	--Every searching item must be in same field;
 
---- Sub-query -----------------------------------------------------------
+## Sub-query ----------------
 	-- Most needed thing but little complex in MySql ( ^ - ^ )
 	-- sub-query is a query that inside in '( ... )'
 	-- It used in after select or after where.
@@ -336,7 +336,7 @@
 				-- here customer_id is foreign key in regular_customer.
 	-- if some record come multiple it is good to use DISTINCT
 	
---- Store queries that use multiple time -------------------------
+## Store queries that use multiple time 
 	
 	# WITHOUT PARAMETER : 
 		delimiter $$
@@ -354,7 +354,7 @@
 	
 	# DELETE PROCEDURE : drop procedure (here procedure name only not need '()' ) 		-- Example : drop procedure get_employees;
 	
---- Trigger helps to do something while INSERT,DELETE or UPDATE record
+## Trigger helps to do something while INSERT,DELETE or UPDATE record
 	
 	# Apply in same table : 
 		create trigger (here understandable trigger name)	
